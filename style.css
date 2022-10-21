@@ -1,0 +1,119 @@
+body {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  margin: 0; 
+  padding: 0;
+}
+
+#logo {
+  height: 165px;
+  border-radius: 10px;
+}
+
+header {
+  background-color: white;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: purple;
+  padding: 0 25px;
+}
+
+.logo {
+  display: flex;
+  height: 100px;
+  width: 200px;
+  align-items: center;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 0.9;
+  
+}
+
+nav {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 0px;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  color: orangered;
+  font-weight: 500;
+  transform: translate(0, 10px);
+  box-shadow: 0 0 25px black;
+}
+
+.buy {
+  background-color: black;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  color: orangered;
+  border-radius: 25px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  border-radius: 10px;
+}
+
+.email-sign-up {
+  display: flex;
+  align-items: center;
+  width: 425px;
+  justify-content: space-between;
+}
+
+input {
+  width: 120px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.beat-pack-pic {
+  height: 160px;
+  width: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+main {
+  display: flex;
+  min-height: calc(100vh - 175px);
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.cover-card {
+  background-color: black;
+  height: 300px;
+  width: 175px;
+  color: orangered;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.buy-btn, #sign-up {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  border: none;
+  padding: 5px 10px;
+  background-color: purple;
+  color: white;
+  border-radius: 10px;
+}
+
+.buy-btn:hover, #sign-up:hover {
+  box-shadow: 0 0 15px white;
+}
